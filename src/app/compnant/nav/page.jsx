@@ -15,7 +15,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="w-full h-[120px] bg-white flex justify-center items-center">
+    <div className="w-full h-[120px] bg-white flex justify-center items-center animate-slide-in2">
       <nav className="w-full h-[80px] bg-black text-white flex rounded-[20px] max-460:flex-col max-460:h-auto max-460:relative">
         {/* Left Section */}
         <div className="w-[30%] h-[80px] flex pl-[30px] items-center max-460:w-full max-460:justify-between max-460:px-5">
