@@ -11,6 +11,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        'max-460': { max: '460px' }, // Add custom breakpoint for max width 460px
+      },
     },
   },
   plugins: [],
